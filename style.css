@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  height: 72px;
+  background-color: #3E3C3C;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+menu {
+    width: 90vw;
+    height: 72px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+}
+ul li a {
+  margin-right: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.banner {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1C1A19;
+}
+
+.socials ul li a {
+  color: #cfcfcf;
+}
+
+.socials ul li {
+  margin: 20px;
+}
+
+.socials ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  margin: auto 20px;
+  width: 10rem;
+  height: 60vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.deco {
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  height: 40rem;
+}
+
+h1 {
+  width: 566px;
+  height: 160px;
+  margin-left: 10px;
+  margin-top: 5px;
+  padding: 10px;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 78px;
+  line-height: 82px;
+  color: #F55800;
+}
+
+.intro p {
+  width: 566px;
+  height: 123px;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #F4F5F7;
+}
+
+.intro h3 {
+width: 566px;
+height: 24px;
+margin-left: 20px;
+margin-top: 30px;
+margin-bottom: 30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 44px;
+align-items: center;
+color: #FFFFFF;
+}
